@@ -75,4 +75,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </li>
         <?php endforeach; ?>
     </ul>
+    <button style="
+    background-color: #eeeeee;
+    border: 1px dashed #222222;
+    border-radius: 2px;
+    color: #222222;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+">Click to Organize</button>
 </body>
